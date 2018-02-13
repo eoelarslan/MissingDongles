@@ -11,6 +11,7 @@ public class Dongle {
     private int battery;
     private String brandName;
     private String vendorName;
+    //private int age;
 
     public String getMerchant() {
         return merchant;
