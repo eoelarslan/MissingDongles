@@ -14,7 +14,9 @@ public class DongleDaoImpl implements DongleDao {
 
     @Autowired
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
-
+deneme
+    dsad
+        dsad
 
     private String selectStatement = "SELECT DISTINCT t4.`NAME` Merchant, t2.DESCRIPTION Description, t2.DEVICE_SERIAL Device_Serial,"
             + " t2.EVENT_TS Last_Event, t2.BATTERY Battery, t5.`NAME` BRAND_NAME, t3.`NAME` VENDOR_NAME"
